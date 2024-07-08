@@ -13,6 +13,7 @@ Run 'Model1.nb' to generate outputs 'extMetrics8_TPC_outputtype_tmax_dims.m'
 - 'outputtype': for each run, will generate 'extTime' with the timestep of extinction from each run and 'popSize' with the population size at each timestep from each run
 - 'tmax': the number of timesteps included the simualations; default is 'tmax2000'
 - 'dims': the dimensions of the output matrix (number of spectral exponents, mean temperatures, stdevs of temperatures, and simulation replications); default is 'dims21,4,1,1000'
+
 Run 'Model1_plotting.nb' to generate Fig 3 and A4 using the outputs from 'Model1.nb'.
 
 ### Model 2: Extinction Risk Across the Thermal Landscape
@@ -22,6 +23,7 @@ Run 'Model2.nb' to generate outputs 'extTime_TPC_tmax_dims.m'
 - 'TPC': either not included (temperate TPC) or 'trop_' (tropical TPC). Temperate must be run to generate Figs 4 and 5, tropical must be run to generate Figs A5 and A6.
 - 'tmax': the number of timesteps included the simualations; default is 'tmax2000'
 - 'dims': the dimensions of the output matrix (number of spectral exponents, mean temperatures, stdevs of temperatures, and simulation replications); default is 'dims21,7,7,1000'
+
 Run 'Model2_plotting.nb' to generate Figs 4, 5, A5, and A6.
 
 ### Model 3: Impacts of Autocorrelation on Global Risk Assessments
@@ -32,6 +34,7 @@ Run 'Model3.nb' to generate outputs 'model3_species_timeperiod_extthreshold.m'
 - 'species': the scientific name of each species
 - 'timeperiod': the tested time period; either historical ('1994-01-01to2003-12-31') or present ('2014-01-01to2023-12-31')
 - 'extthreshold': the extinction threshold used during the run; default is 'ext1'
+
 Run 'Model3_plotting.nb' to generate Figs 6 and all extended Figs.
 
 ### Supplemental Code
