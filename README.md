@@ -6,13 +6,33 @@ Released 2024-07
 ## Sections
 
 ### Model 1: Autocorrelation's Effect on Abundance and Risk Metrics
-This model simulates the population dynamics of a logistically growing population with either a generalist or a specialist TPC experiencing different mean temperatures across various levels of temporal autocorrelation. Outputs: squence of population sizes and extinction times for every parameter set (Figure 3).
+This model simulates the population dynamics of a logistically growing population with either a generalist or a specialist TPC experiencing different mean temperatures across various levels of temporal autocorrelation. Outputs: squence of population sizes and extinction times for every parameter set.
+
+Run 'Model1.nb' to generate outputs 'extMetrics8_TPC_outputtype_tmax_dims.m'
+- 'TPC': either not included (temperate TPC) or 'trop_' (tropical TPC). Both versions must be run to plot Fig 3.
+- 'outputtype': for each run, will generate 'extTime' with the timestep of extinction from each run and 'popSize' with the population size at each timestep from each run
+- 'tmax': the number of timesteps included the simualations; default is 'tmax2000'
+- 'dims': the dimensions of the output matrix (number of spectral exponents, mean temperatures, stdevs of temperatures, and simulation replications); default is 'dims21,4,1,1000'
+Run 'Model1_plotting.nb' to generate Fig 3 and A4 using the outputs from 'Model1.nb'.
 
 ### Model 2: Extinction Risk Across the Thermal Landscape
-This model simulations the population dynamics of a logistically growing population with either a generalist or a specialist TPC experiencing different mean and standard deviations of temperatures across various levels of temporal autocorrelation. Outputs: extinction times for every parameter set (Figure 4, 5).
+This model simulations the population dynamics of a logistically growing population with either a generalist or a specialist TPC experiencing different mean and standard deviations of temperatures across various levels of temporal autocorrelation. Outputs: extinction times for every parameter set.
+
+Run 'Model2.nb' to generate outputs 'extTime_TPC_tmax_dims.m'
+- 'TPC': either not included (temperate TPC) or 'trop_' (tropical TPC). Temperate must be run to generate Figs 4 and 5, tropical must be run to generate Figs A5 and A6.
+- 'tmax': the number of timesteps included the simualations; default is 'tmax2000'
+- 'dims': the dimensions of the output matrix (number of spectral exponents, mean temperatures, stdevs of temperatures, and simulation replications); default is 'dims21,7,7,1000'
+Run 'Model2_plotting.nb' to generate Figs 4, 5, A5, and A6.
 
 ### Model 3: Impacts of Autocorrelation on Global Risk Assessments
 This model simulates the population dynamics of a logistically growing population with one of 38 empirical invetebrate TPCs experiencing historical (1994-2003) or recent (2014-2023) observed temperature regimes across various levels of temporal autocorrelation and realistic diurnal and seasonal cycles. Outputs: extinction times and minimum population size for every parameter set for each organism (Figure 6).
+
+Inputs: This model requires downloaded files (species data) and (temperature data).
+Run 'Model3.nb' to generate outputs 'model3_species_timeperiod_extthreshold.m'
+- 'species': the scientific name of each species
+- 'timeperiod': the tested time period; either historical ('1994-01-01to2003-12-31') or present ('2014-01-01to2023-12-31')
+- 'extthreshold': the extinction threshold used during the run; default is 'ext1'
+Run 'Model3_plotting.nb' to generate Figs 6 and all extended Figs.
 
 ### Supplemental Code
 These files contain code for all supporting figures (Figure 1, 2, and appendices).
