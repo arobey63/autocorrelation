@@ -38,7 +38,7 @@ Run 'Model3.nb' to generate outputs 'model3_species_timeperiod_extthreshold.m'
 Run 'Model3_plotting.nb' to generate Figs 6 and all extended Figs.
 
 ### Supplemental Code
-These files contain code for all supporting figures (Figure 1, 2, and appendices).
+These files contain code for all additional figures (Figs 1 & 2 in the main text and Figs A1-4 in appendices).
 
 ## References
 
