@@ -1,4 +1,4 @@
-# Autocorrelation and Extinction Risk
+# Order matters: Autocorrelation of temperature dictates extinction risk in populations with nonlinear thermal performance
 Forecasting the risks caused by climate change often relies upon combining species' thermal performance curves with expected statistical distributions of experienced temperatures, without consideration for the order in which those temperatures occur. Such averaging approaches may obscure the disproportionate impacts that extreme events like heatwaves have on fitness and survival. In this study, we instead incorporate thermal performance curves with population dynamical modeling to elucidate the relationship between the sequence of temperature events -- driven by temporal autocorrelation -- and extinction risk. We show that the permutation of temperatures determines the extent of risk; as thermal regimes grow warmer, more variable, and more autocorrelated, the risk of extinction grows non-linearly and is driven by interactions among our three treatment variables. Given that the mean, variance, and autocorrelation of temperatures are changing in nuanced ways across the globe, understanding these interactions is paramount for forecasting risk. Using empirical data from a benchmarked set of thermal performance curves, we demonstrate how extinction risk is impacted by the change in mean, variance, and autocorrelation, while controlling for seasonal and diurnal cycling. Our results and modeling approach offer new tools for testing the robustness of thermal performance curves and emphasize the importance of looking beyond temporally-blind metrics, like mean population size or average thermal distributions, for forecasting impending extinction risks.
 
 Released 2024-07
@@ -42,4 +42,4 @@ These files contain code for all additional figures (Figs 1 & 2 in the main text
 
 ## References
 
-Robey, A.J. and Vasseur, D.A. (2024). Order matters: Autocorrelation of temperatures dictates extinction risk in populations with nonlinear thermal performance. In review.
+Robey, A.J. and Vasseur, D.A. (2024). [Order matters: Autocorrelation of temperatures dictates extinction risk in populations with nonlinear thermal performance](https://doi.org/10.1101/2024.12.19.629491). In review.
