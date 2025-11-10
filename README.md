@@ -3,7 +3,7 @@ Forecasting the risks caused by climate change often relies upon combining speci
 
 Required data to run all code is available for download at [https://doi.org/10.5061/dryad.w0vt4b91q](https://doi.org/10.5061/dryad.w0vt4b91q).
 
-Initial release 2024-07; revised 2025-07
+Initial release 2024-07; revised 2025-07; revised 2025-11
 
 ## Sections
 
