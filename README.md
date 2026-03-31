@@ -54,4 +54,4 @@ For any users who do not have access to _Mathematica_, all files are additionall
 
 ## References
 
-Robey, A.J. and Vasseur, D.A. (2024). [Order matters: Autocorrelation of temperatures dictates extinction risk in populations with nonlinear thermal performance](https://doi.org/10.1101/2024.12.19.629491).
+Robey, A.J. and Vasseur, D.A. (2026). [Order matters: Autocorrelation of temperatures dictates extinction risk in populations with nonlinear thermal performance](https://doi.org/10.1002/ecy.70325). Ecology 107(3): e70325.
